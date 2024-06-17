@@ -56,7 +56,7 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
     - Código Coinhive, un popular script de criptojacking, sirve como un excelente ejemplo de cómo el cryptojacking puede afectar a los usuarios desprevenidos.
         - https://github.com/cazala/coin-hive
         - Dentro de este repositorio nos encontramos con las siguientes líneas de comando del funcionamiento donde puedo identificar cierta información de la que se habla en los videos mostrados previamente
-    ```js
+```js
 const CoinHive = require('coin-hive');
 
 (async () => {
