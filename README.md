@@ -5,7 +5,7 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
 - **Un poco de teoría** *Opcional*
     - Articulo de Kaspersky: https://latam.kaspersky.com/resource-center/definitions/what-is-cryptojacking
     - Articulo de la Interpol: https://www.interpol.int/es/Delitos/Ciberdelincuencia/Cryptojacking
-        - *ver pdf adjunto* 
+        - *ver pdf adjunto Cybercrime-Cryptojacking-SP.pdf*  
         
 - **¿Como se realiza o Como funciona?**
     - En este blog se detalla paso a paso un Caso de Uso Detectando y deteniendo el Cryptojacking
