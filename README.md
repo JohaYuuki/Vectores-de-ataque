@@ -37,14 +37,14 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
         - https://www.malwarebytes.com/blog/news/2018/03/malicious-cryptomining-and-the-blacklist-conundrum?_gl=1*p6t6s*_gcl_au*NjAwMjY2NTIuMTcxODU4OTg4Nw..*_ga*MTE1MzA4MTM5OC4xNzE4NTg5ODg3*_ga_K8KCHE3KSC*MTcxODU4OTg4Ny4xLjAuMTcxODU4OTg4Ny42MC4wLjA.&_ga=2.115658438.1182362623.1718589887-1153081398.1718589887
 
 - **Artículos Científicos**
-    - Publicación en la IEEE acerca de SoK: Cryptojacking Malware previamente mencionado y algunas técnicas de ello
+    - Publicación en la IEEE acerca de SoK: Cryptojacking Malware y algunas técnicas de ello
         - https://ieeexplore.ieee.org/document/9581251
 
 - **Scripts y Herramientas**
     - Código Fuente de Monero-injector un script automatizado simple que inyecta xmrig miner en sistemas basados ​​en Debian como un servicio del sistema y persiste durante los reinicios.
         - https://github.com/shadowctrl/crypto-miner
 
-    - Este repositorio contiene el conjunto de datos de malware de criptojacking
+    - Este repositorio contiene el conjunto de datos de malware de criptojacking previamente mencionado SoK: Cryptojacking Malware
         - https://github.com/sokcryptojacking/SoK
 
     - Servicio que ofrece Cryptojacking a cambio de Monero (XMR)
