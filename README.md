@@ -2,7 +2,7 @@
 
 Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberdelito. En este caso: **Cryptojacking**
 
-- **Un poco de teoría** *Optional*
+- **Un poco de teoría** *Opcional*
     - Articulo de Kaspersky: https://latam.kaspersky.com/resource-center/definitions/what-is-cryptojacking
     - Articulo de la Interpol: https://www.interpol.int/es/Delitos/Ciberdelincuencia/Cryptojacking
         - *ver pdf adjunto* 
