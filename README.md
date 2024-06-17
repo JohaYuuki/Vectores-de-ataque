@@ -40,7 +40,7 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
         - https://www.malwarebytes.com/blog/news/2018/03/malicious-cryptomining-and-the-blacklist-conundrum?_gl=1*p6t6s*_gcl_au*NjAwMjY2NTIuMTcxODU4OTg4Nw..*_ga*MTE1MzA4MTM5OC4xNzE4NTg5ODg3*_ga_K8KCHE3KSC*MTcxODU4OTg4Ny4xLjAuMTcxODU4OTg4Ny42MC4wLjA.&_ga=2.115658438.1182362623.1718589887-1153081398.1718589887
 
 - **Artículos Científicos**
-    - Publicación en la IEEE acerca de SoK: Cryptojacking Malware y algunas técnicas de ello
+    - Publicación en la IEEE acerca de SoK: Cryptojacking Malware y algunas técnicas de ello *ver pdf SoK_Cryptojacking_Malware.pdf*
         - https://ieeexplore.ieee.org/document/9581251
 
 - **Scripts y Herramientas**
