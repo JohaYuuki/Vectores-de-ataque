@@ -26,6 +26,9 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
     - Video sobre la inyección del Minador CoinHive en una red Wifi Pública
         - https://www.youtube.com/watch?v=oXsSTMi5lZ0
 
+    - En este video se muestra el uso de un malware con intenciones educativas, Es un programa basado en GUI para crear malware personalizado de robo de criptomonedas escrito en Python, es indetectable por Antivirus
+        - https://www.youtube.com/watch?v=Ha9hqmdEzCk
+
 - **Reportajes y Noticias**
     - Detected Cryptojacking Prompts Microsoft. Se detectó cerca de 8 apps en Microsoft Store que identificaron la presencia de un código subrepticio de minería de monedas Monero (XMR). 
         - https://cointelegraph.com/news/detected-cryptojacking-prompts-microsoft-to-remove-eight-free-apps-from-microsoft-store
@@ -47,9 +50,14 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
     - Este repositorio contiene el conjunto de datos de malware de criptojacking previamente mencionado SoK: Cryptojacking Malware
         - https://github.com/sokcryptojacking/SoK
 
-    - Servicio que ofrece Cryptojacking a cambio de Monero (XMR)
+    - Servicio que ofrece Cryptojacking a cambio de Monero (XMR), Crypto loot Alternativa a Coin-Hive
         - https://crypto-loot.com/index.php
-    
+
+    - Raccoon Crypto Clipper escrito en python, usa pyarmor para ofuscar malware y pyinstaller para compilar en .exe, tres tipos diferentes del mismo malware pero usando diferentes métodos. subproceso, ctypes y piperclip
+        - https://github.com/3022-2/raccoon_clipper
+        - Admite Bitcoin, Ethereum, Litecoin, Monero, Solana, Dogecoin, Ripple, Tron al mismo tiempo
+  <img src="./raccon.png" alt="Ejemplo" height="350">
+
     - Código Coinhive, un popular script de criptojacking, sirve como un excelente ejemplo de cómo el cryptojacking puede afectar a los usuarios desprevenidos.
         - https://github.com/cazala/coin-hive
         - Dentro de este repositorio nos encontramos con las siguientes líneas de código que se insertaba en un Website donde puedo identificar cierta información de la que se habla en los videos mostrados previamente
@@ -84,4 +92,7 @@ const CoinHive = require('coin-hive');
   setTimeout(async () => await miner.stop(), 60000);
 })();
 ```
-
+- **Herramientas para Mitigar Cryptojacking en Navegadores**
+  - Salvo los Antivirus conocidos como Windows Defender, existen herramientas o extensiones que sirven para la mitigación de Cryptojacking:
+      - MinerBlock, Una extensión de navegador eficiente para bloquear mineros de criptomonedas basados ​​en navegador en toda la web: https://github.com/xd4rker/MinerBlock
+      - eComscan es el sucesor de mwscan, Detecta vulnerabilidades en plataformas de comercio electrónico populares: https://github.com/gwillem/magento-malware-scanner
