@@ -53,6 +53,12 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
     - Código Coinhive, un popular script de criptojacking, sirve como un excelente ejemplo de cómo el cryptojacking puede afectar a los usuarios desprevenidos.
         - https://github.com/cazala/coin-hive
         - Dentro de este repositorio nos encontramos con las siguientes líneas de código que se insertaba en un Website donde puedo identificar cierta información de la que se habla en los videos mostrados previamente
+        - Cuando un usuario visitaba el sitio web que contenía el script de CoinHive, el código JavaScript se ejecutaba automáticamente en el navegador del usuario.
+        
+      <img src="./miner_bypass.gif" alt="Ejemplo" height="350"> 
+
+        - A medida que los cálculos se realizaban, contribuían a la resolución de bloques en la blockchain de Monero. Si se resolvía un bloque exitosamente, se generaba una cantidad de Monero como recompensa.
+        - La criptomoneda minada se dividía entre el propietario del sitio web y CoinHive, generalmente con una comisión tomada por CoinHive por proporcionar la plataforma.
 ```js
 const CoinHive = require('coin-hive');
 
@@ -78,9 +84,4 @@ const CoinHive = require('coin-hive');
   setTimeout(async () => await miner.stop(), 60000);
 })();
 ```
-        -   Cuando un usuario visitaba el sitio web que contenía el script de CoinHive, el código JavaScript se ejecutaba automáticamente en el navegador del usuario.
-        
-      <img src="./miner_bypass.gif" alt="Ejemplo" height="350"> 
 
-        - A medida que los cálculos se realizaban, contribuían a la resolución de bloques en la blockchain de Monero. Si se resolvía un bloque exitosamente, se generaba una cantidad de Monero como recompensa.
-        - La criptomoneda minada se dividía entre el propietario del sitio web y CoinHive, generalmente con una comisión tomada por CoinHive por proporcionar la plataforma.
