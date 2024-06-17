@@ -11,9 +11,6 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
     - En este blog se detalla paso a paso un Caso de Uso Detectando y deteniendo el Cryptojacking
         - https://logrhythm.com/blog/insider-threat-use-case-detecting-and-stopping-cryptojacking/
 
-
-      <img src="./miner_bypass.gif" alt="Ejemplo" height="350"> 
-
     - De la misma forma en este blog se habla de ello
         - https://steemit.com/coinhivealternatives/@sugitv/cryptojackingtutorial-jx2vu8h2xu
 
@@ -23,7 +20,7 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
     - En este simposio en vivo Matt Benyo habla sobre el Arte del Cryptojacking y su funcionamiento con una explicación gráfica
         - https://www.youtube.com/watch?v=LppxJQ9dKPo
 
-    - Aquí tenemos un video del funcionamiento de CoinHive uno de los más populares con el cual es posible ejecutar una operación de Minería a través de JavaScript en su sitio web.
+    - Aquí tenemos un video del funcionamiento de CoinHive uno de los más populares con el cual es posible ejecutar una operación de Minería a través de JavaScript en su sitio web. Actualmente ya no se encuentra en funcionamiento
         - https://www.youtube.com/watch?v=knrOWgYi8vg
 
     - Video sobre la inyección del Minador CoinHive en una red Wifi Pública
@@ -55,7 +52,7 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
     
     - Código Coinhive, un popular script de criptojacking, sirve como un excelente ejemplo de cómo el cryptojacking puede afectar a los usuarios desprevenidos.
         - https://github.com/cazala/coin-hive
-        - Dentro de este repositorio nos encontramos con las siguientes líneas de comando del funcionamiento donde puedo identificar cierta información de la que se habla en los videos mostrados previamente
+        - Dentro de este repositorio nos encontramos con las siguientes líneas de código que se insertaba en un Website donde puedo identificar cierta información de la que se habla en los videos mostrados previamente
 ```js
 const CoinHive = require('coin-hive');
 
@@ -81,5 +78,9 @@ const CoinHive = require('coin-hive');
   setTimeout(async () => await miner.stop(), 60000);
 })();
 ```
+        -   Cuando un usuario visitaba el sitio web que contenía el script de CoinHive, el código JavaScript se ejecutaba automáticamente en el navegador del usuario.
+        
+      <img src="./miner_bypass.gif" alt="Ejemplo" height="350"> 
 
-
+        - A medida que los cálculos se realizaban, contribuían a la resolución de bloques en la blockchain de Monero. Si se resolvía un bloque exitosamente, se generaba una cantidad de Monero como recompensa.
+        - La criptomoneda minada se dividía entre el propietario del sitio web y CoinHive, generalmente con una comisión tomada por CoinHive por proporcionar la plataforma.
