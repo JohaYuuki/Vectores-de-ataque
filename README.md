@@ -11,6 +11,7 @@ Hola soy Johanna Yépez, aquí encontrarás información relacionada a un ciberd
     - En este blog se detalla paso a paso un Caso de Uso Detectando y deteniendo el Cryptojacking
         - https://logrhythm.com/blog/insider-threat-use-case-detecting-and-stopping-cryptojacking/
 
+
       <img src="./miner_bypass.gif" alt="Ejemplo" height="350"> 
 
     - De la misma forma en este blog se habla de ello
